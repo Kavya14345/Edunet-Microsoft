@@ -1,4 +1,4 @@
-````markdown
+
 # 🔊 AI Voice Assistant – Kavya Sampathirao
 
 This project is a voice-controlled virtual assistant built using Python that helps users perform system-level tasks, access online platforms, read files, and interact with services like ChatGPT, YouTube, and more—all via natural spoken language.
