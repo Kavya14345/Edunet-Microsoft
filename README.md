@@ -112,8 +112,11 @@ This project is a **voice-controlled desktop assistant** built using Python. It 
 
 👩‍💻 **Sampathirao Kavya**
 B.Tech CSE, 3rd Year
+
 📍 JNTU-GV Vizianagaram
-🔗 [LinkedIn Profile](https://linkedin.com/in/kavya)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/kavya-sampathirao-9b142b256/)
+
 🌟 Passionate about AI, machine learning, automation, and Python development
 
 ---
