@@ -65,66 +65,49 @@ This project is a voice-controlled virtual assistant built using Python that hel
    ```
 
 ---
+🗣️ Example Voice Commands
+Task	Command Example
+Open folder or file	"Open folder projects"
+Delete folder or file	"Delete file test.pdf"
+Google search	"Search Google for Python tutorials"
+YouTube search	"Search in YouTube for funny cats"
+Play song on YouTube	"Play song Shape of You"
+ChatGPT query	"Chat GPT" (then speak your query)
+Type text	"Type text" → say "Hello world"
+Screenshot	"Take screenshot"
+Read a PDF	"Read PDF" (GUI dialog will open)
+Open Notepad	"Open Notepad"
+Open Word/Excel/PowerPoint	"Open Word" / "Open Excel" / "Open PowerPoint"
+Open websites	"Open GitHub" / "Open LinkedIn"
 
-## 🗣️ Example Voice Commands
+🧠 Code Structure Summary
+Section	Description
+speak(text)	Converts text to speech
+listen_command()	Captures user's voice and converts to text
+search_folders_files()	Searches for files/folders in specified directories
+extract_number()	Converts spoken numbers to integers
+open_item() / delete_item()	Opens or deletes selected file/folder
+open_chatgpt()	Opens ChatGPT, listens to user query, auto-types it
+type_text_into_app()	Types spoken text into the current application
+take_screenshot()	Captures and saves a screenshot
+read_pdf()	Reads and speaks contents of selected PDF
+assistant_loop()	Main command loop handling user input
+GUI (Tkinter)	Provides buttons to start, stop, and exit assistant
 
-| Task                       | Command Example                                |
-| -------------------------- | ---------------------------------------------- |
-| Open folder or file        | "Open folder projects"                         |
-| Delete folder or file      | "Delete file test.pdf"                         |
-| Google search              | "Search Google for Python tutorials"           |
-| YouTube search             | "Search in YouTube for funny cats"             |
-| Play song on YouTube       | "Play song Shape of You"                       |
-| ChatGPT query              | "Chat GPT" (then speak your query)             |
-| Type text                  | "Type text" → say "Hello world"                |
-| Screenshot                 | "Take screenshot"                              |
-| Read a PDF                 | "Read PDF" (GUI dialog will open)              |
-| Open Notepad               | "Open Notepad"                                 |
-| Open Word/Excel/PowerPoint | "Open Word" / "Open Excel" / "Open PowerPoint" |
-| Open websites              | "Open GitHub" / "Open LinkedIn"                |
-
----
-
-## 🧠 Code Structure Summary
-
-| Section                         | Description                                         |
-| ------------------------------- | --------------------------------------------------- |
-| `speak(text)`                   | Converts text to speech                             |
-| `listen_command()`              | Captures user's voice and converts to text          |
-| `search_folders_files()`        | Searches for files/folders in specified directories |
-| `extract_number()`              | Converts spoken numbers to integers                 |
-| `open_item()` / `delete_item()` | Opens or deletes selected file/folder               |
-| `open_chatgpt()`                | Opens ChatGPT, listens to user query, auto-types it |
-| `type_text_into_app()`          | Types spoken text into the current application      |
-| `take_screenshot()`             | Captures and saves a screenshot                     |
-| `read_pdf()`                    | Reads and speaks contents of selected PDF           |
-| `assistant_loop()`              | Main command loop handling user input               |
-| GUI (Tkinter)                   | Provides buttons to start, stop, and exit assistant |
-
----
-
-## 🙋‍♀️ About Me
-
-👩‍💻 **Sampathirao Kavya**
+🙋‍♀️ About Me
+👩‍💻 Sampathirao Kavya
 B.Tech CSE, 3rd Year
 JNTU-GV Vizianagaram
-🔗 LinkedIn: [linkedin.com/in/kavya](https://www.linkedin.com/in/kavya-sampathirao-9b142b256/)
+🔗 LinkedIn: linkedin.com/in/kavya
 🌱 Passionate about AI, ML, and automation
 
----
-
-## 📚 Internship Info
-
+📚 Internship Info
 This project was built as a capstone project submission for:
 
-**AI-Azure Virtual Internship Program**
-Organized by: **Edunet Foundation**
-Supported by: **Microsoft Azure AI**
+AI-ML Virtual Internship Program
+Organized by: Edunet Foundation
+Supported by: Microsoft Azure AI
 
----
-
-## 📌 Note
-
+📌 Note
 Make sure your microphone is enabled and permissions are granted for speech recognition to work properly. GUI responsiveness may be affected if long tasks run without threading.
 
----
