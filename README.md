@@ -8,7 +8,7 @@ This project is a **voice-controlled desktop assistant** built using Python. It 
 
 ## 📽️ Demo
 
-🎥 [Click to watch the project demo](https://github.com/Kavya14345/Edunet-Microsoft/blob/main/demo.mp4)
+🎥 [Click to watch the project demo](https://drive.google.com/file/d/1XA4p9Ihy4CrbpbU5miJ1vSwiteH6kUiD/view?usp=drive_link)
 
 ---
 
